@@ -102,6 +102,31 @@ nav img{
   position: absolute;
 }
 
+/*button*/
+button{
+  position: absolute;
+  top: 62%;
+  left: 55%;
+  border: none;
+  background: #F3B54A;
+  padding: 16px 30px;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.2s;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  box-shadow: 0 0 0 4px #323339, 0 0 0 8px #F3B54A;
+}
+
 span{
   color: #F3B54A;
 }
